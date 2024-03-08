@@ -17,7 +17,7 @@ body{
 }
 main{
     width: 18rem;
-    height: 30rem;
+    height: 32rem;
     background-color: hsl(0, 0%, 12%);
     border-radius: 15px;
     padding: 20px;
@@ -27,7 +27,7 @@ main{
 }
 .info{
     margin-top: 1.8rem;
-    margin-bottom: 3rem;
+    margin-bottom: auto;
 }
 h1{
     font-size: 1.5rem;
@@ -49,8 +49,24 @@ img{
     border-radius: 50%;
 }
 
+ul{
+    padding: 0;
+    width: 100%;
+}
+
 li{
     list-style: none;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+}
+li:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
 }
 
 footer {
